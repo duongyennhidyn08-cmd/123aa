@@ -11,7 +11,9 @@ background-color: lightgray;
  flex: 5%;
   background-color: darkgray;
 }
-
+. content{
+  background-color: lightgray;
+}
 .content iframe{
   flex: 1;
   border: none;
