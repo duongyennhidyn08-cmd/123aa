@@ -43,13 +43,14 @@ flex: 10%;
 
 h1{
 color: red;
-
+text-margin: 30pt;
+  vertical-align: top;
 }
 
 .tuade{
   color: red;
 font-family: "Arial";
-  font-size: 20pt
+  font-size: 20pt;
   font-weight: bold;
 }
 
