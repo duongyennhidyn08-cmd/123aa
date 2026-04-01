@@ -3,6 +3,14 @@
     <meta charset= "UTF-8">
   </head>
   <body>
+    <p id= "kq"> </p>
+    <script> 
+    let params = new URLSearchParams(window.location.search);
+      let name= params.get("txtName");
+      let yk = params.get ("txtYk");
+      document.getElementById("kq").innerHTML = "Cảm ơn bạn" + name + "đã góp ý"
+      + "<br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau: <br>" + yk ;
+      </script>
     <form action= "Bai7-NV2.html"
     <h1> <br> Cảm ơn bạn đã đóng góp ý kiến  </h1>
     <h2> <br> Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải thiện, nâng cao chất lượng phục vụ hơn trong thời gian sắp đến </h2>
